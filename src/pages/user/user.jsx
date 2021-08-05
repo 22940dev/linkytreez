@@ -23,7 +23,7 @@ export class PopularUser extends Component {
                         this.state.userData.map(value => 
                             <Link to={`/@user-links/${value.id}`} style={{textDecoration:'none',color:'#000'}}>  
                                 <div >
-                                    <img className="user" width='250px' src={value.avatar}/>
+                                    <img className="user" width='250px' src={value.avatar} alt=""/>
                                     <h1 className="username">{value.first_name} {value.last_name}</h1>
                                 </div>
                             </Link>
