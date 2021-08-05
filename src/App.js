@@ -6,7 +6,7 @@ import HomePage from "./pages/homepage/homepage.jsx";
 import PageNotfound from './pages/page-not-found/page-notfound.jsx'
 import Header from './pages/header/header'
 
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
   render() {
